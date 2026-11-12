@@ -95,6 +95,16 @@ public class ChangeFormFactorPatch {
     /**
      * Injection point.
      * <p>
+     * With the Phone layout, search results use the responsive feed of the home feed,
+     * so they are laid out like the home feed on wide screens such as unfolded foldables.
+     */
+    public static boolean useSearchResultsResponsiveFeed(boolean original) {
+        return original || FORM_FACTOR == FormFactor.SMALL;
+    }
+
+    /**
+     * Injection point.
+     * <p>
      * Called after {@link #getUniversalFormFactor(int)}.
      * Called from the '/get_watch', '/guide', '/next' and '/reel' endpoints.
      * <p>
