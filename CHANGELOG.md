@@ -1,3 +1,9 @@
+## [2.3.1](https://github.com/h05212317-code/fold-yt-patches/compare/v2.3.0...v2.3.1) (2026-11-12)
+
+### 🐛 Bug Fixes
+
+* **YouTube - Change form factor:** Restore the pre-2.2.0 Phone layout on wide screens ([fc0d3fb](https://github.com/h05212317-code/fold-yt-patches/commit/fc0d3fbb02806f9e6b2689759619410ee2b4f289)), closes [#4545](https://github.com/h05212317-code/fold-yt-patches/issues/4545)
+
 ## [2.3.0](https://github.com/h05212317-code/fold-yt-patches/compare/v2.2.0...v2.3.0) (2026-11-12)
 
 ### ✨ New Features
