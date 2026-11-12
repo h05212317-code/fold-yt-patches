@@ -1,3 +1,9 @@
+## [2.4.1](https://github.com/h05212317-code/fold-yt-patches/compare/v2.4.0...v2.4.1) (2026-11-12)
+
+### 🐛 Bug Fixes
+
+* **YouTube:** Remove the search results change, and allow the video action bar layout on foldables ([e59804b](https://github.com/h05212317-code/fold-yt-patches/commit/e59804b12061bab075dd51635079041b8734b864))
+
 ## [2.4.0](https://github.com/h05212317-code/fold-yt-patches/compare/v2.3.1...v2.4.0) (2026-11-12)
 
 ### ✨ New Features

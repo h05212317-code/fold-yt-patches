@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-11-12T08:16:48",
-  "description": "## [2.4.0](https://github.com/h05212317-code/fold-yt-patches/compare/v2.3.1...v2.4.0) (2026-11-12)\n\n### ✨ New Features\n\n* **YouTube - Change form factor:** Use the responsive feed in search results with the Phone layout ([b1f9062](https://github.com/h05212317-code/fold-yt-patches/commit/b1f90623a8268176f1ec51bf52f4b885f6421467))",
-  "download_url": "https://github.com/h05212317-code/fold-yt-patches/releases/download/v2.4.0/patches-2.4.0.mpp",
+  "created_at": "2026-11-12T08:32:11",
+  "description": "## [2.4.1](https://github.com/h05212317-code/fold-yt-patches/compare/v2.4.0...v2.4.1) (2026-11-12)\n\n### 🐛 Bug Fixes\n\n* **YouTube:** Remove the search results change, and allow the video action bar layout on foldables ([e59804b](https://github.com/h05212317-code/fold-yt-patches/commit/e59804b12061bab075dd51635079041b8734b864))",
+  "download_url": "https://github.com/h05212317-code/fold-yt-patches/releases/download/v2.4.1/patches-2.4.1.mpp",
   "signature_download_url": "",
-  "version": "2.4.0"
+  "version": "2.4.1"
 }
