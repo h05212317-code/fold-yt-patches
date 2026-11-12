@@ -319,9 +319,6 @@ Spremembe vključujejo:
   <string name="morphe_hide_keyword_content_search_title">Skrij iskalne rezultate s ključnimi besedami</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skrij video posnetke naročnin s ključnimi besedami</string>
   <string name="morphe_hide_keyword_content_phrases_title">Ključne besede za skritje</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Vnesite ključne besede in fraze za skritje, ločene z novimi vrsticami
-
-Ključne besede lahko vključujejo kateri koli besedilo, ki se prikaže v naslovih videov ali imenih kanalov"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Domov / Naročnine / Iskanje / Komentarji so filtrirani, da skrijejo vsebino, ki ustreza ključnim frazam
 
 Omejitve:
@@ -331,7 +328,6 @@ Omejitve:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Omejitev ključne besede/fraze z dvojnimi narekovaji prepreči delno ujemanje naslovov videa in imen kanalov&lt;br&gt;&lt;br&gt;Na primer,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; bo skril video: &lt;b&gt;Kako deluje AI?&lt;/b&gt;&lt;br&gt;a ne bo skril: &lt;b&gt;Kaj pomeni poštena raba?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Ključna beseda ima protislovne določbe: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Ključna beseda je prekratka in zahteva narekovaje: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Ključna beseda bo skrivala vse videoposnetke: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Domov: %1$s
@@ -559,18 +555,11 @@ Ko enkrat odprete video s gumbom Zastavi, bo funkcija delovala za vse videe, tud
   <string name="morphe_export_download_folder_summary">"Izvozite v aplikaciji shranjene videoposnetke v pomnilnik naprave prek menija za prenose v aplikaciji. Dotaknite se za spremembo izvozne mape
 
 Izvozna mapa: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Izvozna mapa</string>
-  <string name="morphe_export_download_folder_change">Spremeni mapo</string>
-  <string name="morphe_export_download_folder_changed">Izvozna mapa spremenjena</string>
-  <string name="morphe_export_download_folder_reset">Izvozna mapa ponastavljena</string>
-  <string name="morphe_export_download_folder_missing">Mapke za izvoz %s ni bilo mogoče najti</string>
-  <string name="morphe_export_download_flyout_title">Izvozi na napravo</string>
   <string name="morphe_export_download_started">Izvoz videoposnetka</string>
   <string name="morphe_export_download_progress">Izvoz videa: %s%%</string>
   <string name="morphe_export_download_notification_channel">Izvoz videoposnetkov</string>
   <string name="morphe_export_download_saved">Videoposnetek izvožen v %s</string>
   <string name="morphe_export_download_failed">Videoposnetka ni bilo mogoče izvoziti</string>
-  <string name="morphe_export_download_canceled">Izvoz preklican</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Prevajanje z glasom</string>
   <string name="morphe_vot_screen_summary">Prebiranje napisov videoposnetka v glas z uporabo pretvorbe besedila v govor v napravi, sinhronizirano s predvajanjem</string>
@@ -728,8 +717,6 @@ Opozorilo: morda ne deluje na prenosih v živo"</string>
   <string name="morphe_queue_type_entry_2">Sistemska čakalna vrsta</string>
   <string name="morphe_queue_type_entry_3">Morphe čakalna vrsta</string>
   <string name="morphe_queue_type_entry_4">Odjemalec Morphe čakalne vrste</string>
-  <string name="morphe_queue_add_flyout_menu_title">Dodaj element menija v čakalno vrsto</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Doda dodaten element menija. Omogočite to, če \"Dodaj v čakalno vrsto\" ni prikazano</string>
   <string name="morphe_local_queue_sheet_title">Čakalna vrsta</string>
   <string name="morphe_local_queue_open">Čakalna vrsta (%s)</string>
   <string name="morphe_local_queue_clear">Počisti vse</string>

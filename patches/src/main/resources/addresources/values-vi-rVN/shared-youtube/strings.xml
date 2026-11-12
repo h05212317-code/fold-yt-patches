@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Làm nổi bật các cài đặt mới</string>
   <string name="morphe_settings_new_indicator_days_summary">Số ngày hiển thị dấu chấm bên cạnh các cài đặt và tùy chọn được thêm vào thông qua bản cập nhật</string>
   <string name="morphe_settings_new_indicator_days_off">Tắt</string>
+  <string name="morphe_settings_new_indicator_clear_title">Đánh dấu tất cả cài đặt là đã xem</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Xóa dấu chấm khỏi tất cả các cài đặt và tùy chọn mới</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Đánh dấu tất cả cài đặt là đã xem?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Dấu chấm sẽ được xóa khỏi tất cả các cài đặt và tùy chọn mới. Các cài đặt được thêm vào trong các bản cập nhật tương lai vẫn sẽ được làm nổi bật.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Khởi động lại để hoàn tất thiết lập</string>
   <!-- layout.branding.baseCustomBrandingPatch -->

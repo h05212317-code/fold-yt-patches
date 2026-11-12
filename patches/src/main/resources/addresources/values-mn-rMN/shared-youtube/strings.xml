@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Шинэ тохиргоог онцлох</string>
   <string name="morphe_settings_new_indicator_days_summary">Шинэчлэлтээр нэмэгдсэн тохиргоо болон сонголтуудын хажууд цэг харуулах хоногийн тоо</string>
   <string name="morphe_settings_new_indicator_days_off">Унтраах</string>
+  <string name="morphe_settings_new_indicator_clear_title">Бүх тохиргоог үзсэн гэж тэмдэглэх</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Бүх шинэ тохиргоо болон сонголтуудаас цэг тэмдгийг устгах</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Бүх тохиргоог үзсэн гэж тэмдэглэх үү?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Бүх шинэ тохиргоо болон сонголтуудаас цэг тэмдгийг устгалаа. Ирэх шинэчлэлтээр нэмэгдэх тохиргоонууд онцгойлсон хэвээр байх болно.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Тохиргоог дуусгахын тулд дахин ачаална уу</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Багцын нэр зөв эсэхийг болон апп суулгасан эсэхийг шалгана уу"</string>
   <string name="morphe_external_downloader_empty_warning">Багцын нэр хоосон байж болохгүй</string>
+  <string name="morphe_export_download_folder_dialog_title">Экспортын хавтас</string>
+  <string name="morphe_export_download_folder_change">Хавтсаа өөрчлөх</string>
+  <string name="morphe_export_download_folder_changed">Экспортын хавтас өөрчлөгдлөө</string>
+  <string name="morphe_export_download_folder_reset">Экспортын хавтсыг шинэчлэлээ</string>
+  <string name="morphe_export_download_folder_missing">Экспортын %s хавтсыг олж чадсангүй</string>
+  <string name="morphe_export_download_flyout_title">Төхөөрөмж рүү экспортлох</string>
+  <string name="morphe_export_download_canceled">Экспортыг цуцалсан</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Захиалгаар</string>
   <string name="morphe_custom_branding_icon_title">Аппликейшны дүрс</string>

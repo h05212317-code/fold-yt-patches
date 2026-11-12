@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Выдзяляць новыя налады</string>
   <string name="morphe_settings_new_indicator_days_summary">Колькасць дзён, на працягу якіх кропка паказваецца побач з наладамі і опцыямі, даданымі ў абнаўленні</string>
   <string name="morphe_settings_new_indicator_days_off">Выкл.</string>
+  <string name="morphe_settings_new_indicator_clear_title">Пазначыць усе налады як праглянутыя</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Выдаліць кропку з усіх новых налад і опцый</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Пазначыць усе налады як праглянутыя?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Кропка выдалена з усіх новых налад і опцый. Налады, даданыя ў будучых абнаўленнях, застануцца выдзяленымі.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Перазапусціце праграму, каб завяршыць налады</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Пераправерце, ці правільна паказана назва пакета і ці ўсталявана праграма"</string>
   <string name="morphe_external_downloader_empty_warning">Назва пакета не можа быць пустай</string>
+  <string name="morphe_export_download_folder_dialog_title">Папка экспарту</string>
+  <string name="morphe_export_download_folder_change">Змяніць папку</string>
+  <string name="morphe_export_download_folder_changed">Папка экспарту зменена</string>
+  <string name="morphe_export_download_folder_reset">Папка экспарту скінута</string>
+  <string name="morphe_export_download_folder_missing">Не ўдалося знайсці папку экспарту %s</string>
+  <string name="morphe_export_download_flyout_title">Экспарт на прыладу</string>
+  <string name="morphe_export_download_canceled">Экспарт скасаваны</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Карыстальніцкае</string>
   <string name="morphe_custom_branding_icon_title">Іконка праграмы</string>

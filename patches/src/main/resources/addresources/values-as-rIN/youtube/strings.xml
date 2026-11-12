@@ -319,9 +319,6 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_search_title">কিৱৰ্ডৰ দ্বাৰা সন্ধানৰ ফলাফলসমূহ লুকুৱাওক</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">কিৱৰ্ডৰ দ্বাৰা চাবস্ক্ৰিপশ্বন ভিডিঅ\'সমূহ লুকুৱাওক</string>
   <string name="morphe_hide_keyword_content_phrases_title">লুকুৱাব লগা কিৱৰ্ডসমূহ</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"লুকাই ৰাখিবলগীয়া কীৱৰ্ড আৰু শব্দাংশবোৰ নতুন লাইনৰ দ্বাৰা পৃথক কৰি লিখক
-
-কীৱৰ্ডবোৰ ভিডিঅ'ৰ শিৰোনাম বা চেনেলৰ নামত দেখা যিকোনো পাঠ হ'ব পাৰে"</string>
   <string name="morphe_hide_keyword_content_about_summary">"কিৱৰ্ড শব্দাংশৰ সৈতে মিল থকা সমলবোৰ লুকাই ৰাখিবলৈ Home / Subscriptions / Search / Comments ফিল্টাৰ কৰা হয়
 
 সীমাবদ্ধতা:
@@ -331,7 +328,6 @@ Second \"item\" text"</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">এটা কীৱৰ্ড/বাক্যক ডাবল-ক’টৰ মাজত ৰাখিলে ভিডিঅ’ৰ শিৰোনাম আৰু চেনেলৰ নামৰ আংশিক মিলবোৰ ৰোধ কৰিব&lt;br&gt;&lt;br&gt;উদাহৰণস্বৰূপে,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; এই ভিডিঅ’টো লুকাব: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;কিন্তু এইটো লুকুৱাব নোৱাৰে: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">কীৱৰ্ডটোৰ সংঘাতময় ঘোষণা আছে: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">কীৱৰ্ডটো অতি চুটি আৰু ইয়াত ক’টৰ প্ৰয়োজন: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">কিৱৰ্ডটোৱে সকলো ভিডিঅ\' লুকুৱাই পেলাব: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• হোম: %1$s
@@ -559,18 +555,11 @@ Ask বুটাম থকা এটা ভিডিঅ' এবাৰ খোল�
   <string name="morphe_export_download_folder_summary">"ইন-এপ ডাউনলোড ফ্লাউআউট মেনু ব্যৱহাৰ কৰি এপৰ ভিতৰত সংৰক্ষিত ভিডিঅ'বোৰ আপোনাৰ ডিভাইচৰ ষ্টোৰেজলৈ এক্সপোর্ট কৰক। এক্সপোর্ট ফোল্ডাৰটো সলনি কৰিবলৈ টেপ কৰক
 
 এক্সপোর্ট ফোল্ডাৰ: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">এক্সপোর্ট ফোল্ডাৰ</string>
-  <string name="morphe_export_download_folder_change">ফোল্ডাৰ সলনি কৰক</string>
-  <string name="morphe_export_download_folder_changed">এক্সপোর্ট ফোল্ডাৰ সলনি কৰা হৈছে</string>
-  <string name="morphe_export_download_folder_reset">এক্সপোর্ট ফোল্ডাৰ ৰিছেট কৰা হৈছে</string>
-  <string name="morphe_export_download_folder_missing">এক্সপোর্ট ফোল্ডাৰ %s বিচাৰি পোৱা নগ\'ল</string>
-  <string name="morphe_export_download_flyout_title">ডিভাইসলৈ এক্সপোর্ট কৰক</string>
   <string name="morphe_export_download_started">ভিডিঅ\' এক্সপোর্ট কৰা হৈছে</string>
   <string name="morphe_export_download_progress">ভিডিঅ\' এক্সপোর্ট কৰা হৈছে: %s%%</string>
   <string name="morphe_export_download_notification_channel">ভিডিঅ\' এক্সপোর্ট</string>
   <string name="morphe_export_download_saved">ভিডিঅ\'টো %s ত এক্সপোর্ট কৰা হৈছে</string>
   <string name="morphe_export_download_failed">ভিডিঅ\'টো এক্সপোর্ট কৰিব পৰা নগ\'ল</string>
-  <string name="morphe_export_download_canceled">এক্সপোর্ট বাতিল কৰা হৈছে</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">ভইচ অভাৰ অনুবাদ</string>
   <string name="morphe_vot_screen_summary">ডিভাইচৰ টেক্সট-টু-স্পীচ ব্যৱহাৰ কৰি ভিডিঅ\'ৰ কেপচনসমূহ উচ্চস্বৰে পঢ়ক, যিবোৰ প্লেবেকৰ সৈতে সমন্বয় কৰা হৈছে</string>
@@ -729,8 +718,6 @@ OpenRouter.ai খুলিবলৈ ইয়াত টিপক"</string>
   <string name="morphe_queue_type_entry_2">নেটিভ কিউ</string>
   <string name="morphe_queue_type_entry_3">Morphe কিউ</string>
   <string name="morphe_queue_type_entry_4">Morphe কিউ ক্লায়েন্ট সাইড</string>
-  <string name="morphe_queue_add_flyout_menu_title">ফীড ফ্লাইআউট কিউ মেনু আইটেম যোগ কৰক</string>
-  <string name="morphe_queue_add_flyout_menu_summary">এটা অতিৰিক্ত ফ্লাইআউট আইটেম যোগ কৰে। যদি \"কিউত যোগ কৰক\" দেখুৱাই নাথাকে তেন্তে ইয়াক সক্ৰিয় কৰক</string>
   <string name="morphe_local_queue_sheet_title">কিউ</string>
   <string name="morphe_local_queue_open">কিউ (%s)</string>
   <string name="morphe_local_queue_clear">সকলোবোৰ মুছক</string>

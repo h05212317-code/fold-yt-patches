@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Označit nová nastavení</string>
   <string name="morphe_settings_new_indicator_days_summary">Počet dní, po které se vedle nastavení a možností přidaných aktualizací zobrazuje tečka</string>
   <string name="morphe_settings_new_indicator_days_off">Vypnuto</string>
+  <string name="morphe_settings_new_indicator_clear_title">Označit všechna nastavení jako přečtená</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Odstraní tečku ze všech nových nastavení a možností</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Označit všechna nastavení jako přečtená?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Tečka bude odstraněna ze všech nových nastavení a možností. Nastavení přidaná v budoucích aktualizacích budou stále zvýrazněna.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Restartovat pro dokončení nastavení</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Ověřte, zda je název balíčku správný a zda je aplikace nainstalována"</string>
   <string name="morphe_external_downloader_empty_warning">Jméno balíčku nemůže být prázdné </string>
+  <string name="morphe_export_download_folder_dialog_title">Složka pro export</string>
+  <string name="morphe_export_download_folder_change">Změnit složku</string>
+  <string name="morphe_export_download_folder_changed">Složka pro export byla změněna</string>
+  <string name="morphe_export_download_folder_reset">Složka pro export byla resetována</string>
+  <string name="morphe_export_download_folder_missing">Složka pro export %s nebyla nalezena</string>
+  <string name="morphe_export_download_flyout_title">Exportovat do zařízení</string>
+  <string name="morphe_export_download_canceled">Export zrušen</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Vlastní</string>
   <string name="morphe_custom_branding_icon_title">Ikona aplikace</string>

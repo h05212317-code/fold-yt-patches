@@ -319,9 +319,6 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_search_title">Приховати відео в пошуку</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Приховати відео в підписках</string>
   <string name="morphe_hide_keyword_content_phrases_title">Ключові слова, які потрібно приховати</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Введіть ключові слова та фрази для приховування, розділяючи їх новими рядками
-
-Ключовими словами може бути будь-який текст, що показується в назвах відео або назвах каналів"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Головна / Підписки / Пошук / Коментарі фільтруються, щоб приховати вміст, який відповідає ключовим фразам
 
 Обмеження:
@@ -331,7 +328,6 @@ Second \"item\" text"</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Взяття ключового слова/фрази в подвійні лапки запобігатиме частковим збігам назв відео та каналів&lt;br&gt;&lt;br&gt;Наприклад,&lt;br&gt;&lt;b&gt;\"ші\"&lt;/b&gt; приховає відео: &lt;b&gt;Як працює ШІ (штучний інтелект)?&lt;/b&gt;&lt;br&gt;але не приховає: &lt;b&gt;Що означає цифра шість?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Ключове слово має конфліктні оголошення: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Ключове слово занадто коротке і потребує лапок: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Ключове слово приховає всі відео: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Головна: %1$s
@@ -559,18 +555,11 @@ Second \"item\" text"</string>
   <string name="morphe_export_download_folder_summary">"Експортує збережені в застосунку відео до сховища пристрою через спливне меню завантажень у застосунку. Натисніть, щоб змінити теку експорту
 
 Тека експорту: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Тека експорту</string>
-  <string name="morphe_export_download_folder_change">Змінити теку</string>
-  <string name="morphe_export_download_folder_changed">Теку експорту змінено</string>
-  <string name="morphe_export_download_folder_reset">Теку експорту скинуто</string>
-  <string name="morphe_export_download_folder_missing">Не вдалося знайти теку експорту %s</string>
-  <string name="morphe_export_download_flyout_title">Експортувати на пристрій</string>
   <string name="morphe_export_download_started">Експорт відео</string>
   <string name="morphe_export_download_progress">Експорт відео: %s%%</string>
   <string name="morphe_export_download_notification_channel">Експорт відео</string>
   <string name="morphe_export_download_saved">Відео експортовано до %s</string>
   <string name="morphe_export_download_failed">Не вдалося експортувати відео</string>
-  <string name="morphe_export_download_canceled">Експорт скасовано</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Голосовий переклад</string>
   <string name="morphe_vot_screen_summary">Зачитує субтитри відео вголос за допомогою локального синтезу мовлення, синхронізованого з відтворенням</string>
@@ -728,8 +717,6 @@ Second \"item\" text"</string>
   <string name="morphe_queue_type_entry_2">Рідна черга</string>
   <string name="morphe_queue_type_entry_3">Черга Morphe</string>
   <string name="morphe_queue_type_entry_4">Клієнтська черга Morphe</string>
-  <string name="morphe_queue_add_flyout_menu_title">Додати пункт меню черги у висувне меню стрічки</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Додає додатковий пункт у висувне меню. Увімкніть цю опцію, якщо пункт \"Додати до черги\" не показується</string>
   <string name="morphe_local_queue_sheet_title">Черга</string>
   <string name="morphe_local_queue_open">Черга (%s)</string>
   <string name="morphe_local_queue_clear">Очистити все</string>

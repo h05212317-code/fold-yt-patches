@@ -319,9 +319,6 @@ Pakeitimai apima:
   <string name="morphe_hide_keyword_content_search_title">Slėpti paieškos rezultatus pagal raktinius žodžius</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Slėpti prenumeratų vaizdo įrašus pagal raktinius žodžius</string>
   <string name="morphe_hide_keyword_content_phrases_title">Raktiniai žodžiai slėpimui</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Įveskite raktinius žodžius ir frazes, kurias norite paslėpti, atskirdami jas naujomis eilutėmis
-
-Raktiniai žodžiai gali būti bet koks tekstas, rodomas vaizdo įrašų pavadinimuose arba kanalų pavadinimuose"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Pradžia / Prenumeratos / Paieška / Komentarai yra filtruojami, kad būtų paslėptas turinys, atitinkantis raktines frazes
 
 Apribojimai:
@@ -331,7 +328,6 @@ Apribojimai:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Apsupę raktinį žodį / frazę dvigubomis kabutėmis išvengsite dalinių vaizdo įrašų pavadinimų ir kanalų pavadinimų atitikimų&lt;br&gt;&lt;br&gt;Pavyzdžiui,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; paslėps vaizdo įrašą: &lt;b&gt;Kaip veikia dirbtinis intelektas?&lt;/b&gt;&lt;br&gt;bet nepaslėps: &lt;b&gt;Ką reiškia sąžiningas naudojimas?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Raktinis žodis turi prieštaringas deklaracijas: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Raktinis žodis per trumpas ir reikalauja kabučių: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Raktinis žodis paslėps visus vaizdo įrašus: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Pagrindinis: %1$s
@@ -559,18 +555,11 @@ Kartą atvėrus vaizdo įrašą su mygtuku „Ask“, funkcija veikia su visais 
   <string name="morphe_export_download_folder_summary">"Eksportuokite programėlėje išsaugotus vaizdo įrašus į savo įrenginio atmintį naudodami programėlės atsisiuntimų išsiskleidžiamąjį meniu. Bakstelėkite, kad pakeitumėte eksportavimo aplanką
 
 Eksportavimo aplankas: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Eksportavimo aplankas</string>
-  <string name="morphe_export_download_folder_change">Pakeisti aplanką</string>
-  <string name="morphe_export_download_folder_changed">Eksportavimo aplankas pakeistas</string>
-  <string name="morphe_export_download_folder_reset">Eksportavimo aplankas nustatytas iš naujo</string>
-  <string name="morphe_export_download_folder_missing">Nepavyko rasti eksporto aplanko %s</string>
-  <string name="morphe_export_download_flyout_title">Eksportuoti į įrenginį</string>
   <string name="morphe_export_download_started">Vaizdo įrašas eksportuojamas</string>
   <string name="morphe_export_download_progress">Vaizdo įrašo eksportavimas: %s%%</string>
   <string name="morphe_export_download_notification_channel">Vaizdo įrašų eksportavimas</string>
   <string name="morphe_export_download_saved">Vaizdo įrašas eksportuotas į %s</string>
   <string name="morphe_export_download_failed">Nepavyko eksportuoti vaizdo įrašo</string>
-  <string name="morphe_export_download_canceled">Eksportavimas atšauktas</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Balso vertimas</string>
   <string name="morphe_vot_screen_summary">Skaito vaizdo įrašo subtitrus garsiai naudodamas įrenginio teksto į kalbą sintezatorių, sinchronizuotą su atkūrimu</string>
@@ -728,8 +717,6 @@ Informacija: gali neveikti tiesioginių transliacijų atveju"</string>
   <string name="morphe_queue_type_entry_2">Natūrali eilė</string>
   <string name="morphe_queue_type_entry_3">Morphe eilė</string>
   <string name="morphe_queue_type_entry_4">Morphe eilės klientinė pusė</string>
-  <string name="morphe_queue_add_flyout_menu_title">Pridėti meniu elementą „Eilė“ prie srauto išskleidžiamojo meniu</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Prideda papildomą išskleidžiamojo meniu elementą. Įgalinkite, jei „Pridėti į eilę“ nerodomas</string>
   <string name="morphe_local_queue_sheet_title">Eilė</string>
   <string name="morphe_local_queue_open">Eilė (%s)</string>
   <string name="morphe_local_queue_clear">Išvalyti viską</string>

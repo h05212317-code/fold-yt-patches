@@ -319,9 +319,6 @@ Aldaketen artean daude:
   <string name="morphe_hide_keyword_content_search_title">Ezkutatu bilaketa-emaitzak gako-hitzen arabera</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Ezkutatu Harpidetzetako bideoak gako-hitzen arabera</string>
   <string name="morphe_hide_keyword_content_phrases_title">Ezkutatzeko gako-hitzak</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Sartu ezagutarri nahi dituzun gako-hitzak eta esaldiak, berri linesen bidez bereztuta
-
-Gako-hitzak bideo-izenetan edo kanal-izenetan agertzen den edozein testu izan daitezke"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Home / Subscriptions / Search / Comments filtrazten dira gako-hitz esaldiekin bat datorren edukia ezagutzeko
 
 Mugak:
@@ -331,7 +328,6 @@ Mugak:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Gako-hitz edo esaldi bat aipuen artean jartzeak bideo eta kanal izenen bat datozen zatiak saihestuko ditu&lt;br&gt;&lt;br&gt;Adibidez,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt;k bideo hau ezkutatuko du: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;baina hau ez: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Gako-hitzak adierazpen gatazkatsuak ditu: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Gako-hitza laburregia da eta aipua behar du: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Gako-hitzak bideo guztiak ezkutuko ditu: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Home: %1$s
@@ -559,18 +555,11 @@ Ask botoia duen bideo bat behin ireki ondoren, funtzioak bideo guztiekin funtzio
   <string name="morphe_export_download_folder_summary">"Aplikazioan gordetako bideoak zure gailuaren biltegian esportatu aplikazioko deskargen flyout menuaren bidez. Sakatu esportazio karpeta aldatzeko
 
 Esportazio karpeta: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Exportazio karpeta</string>
-  <string name="morphe_export_download_folder_change">Aldatu karpeta</string>
-  <string name="morphe_export_download_folder_changed">Exportazio karpeta aldatu da</string>
-  <string name="morphe_export_download_folder_reset">Exportazio karpeta berrezarri da</string>
-  <string name="morphe_export_download_folder_missing">Ezin izan da %s esportazio karpeta aurkitu</string>
-  <string name="morphe_export_download_flyout_title">Gailura esportatu</string>
   <string name="morphe_export_download_started">Bideoa esportatzen</string>
   <string name="morphe_export_download_progress">Bideoa esportatzen: %s%%</string>
   <string name="morphe_export_download_notification_channel">Bideo esportazioak</string>
   <string name="morphe_export_download_saved">Bideoa %s-ra esportatu da</string>
   <string name="morphe_export_download_failed">Ezin izan da bideoa esportatu</string>
-  <string name="morphe_export_download_canceled">Esportazioa bertan behera utzi da</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Ahots gainjarritako itzulpena</string>
   <string name="morphe_vot_screen_summary">Irakurri bideo azpitituluak ozen, gailuaren testu-ahots sistemaren bidez, erreprodukzioarekin sinkronizatuta</string>
@@ -729,8 +718,6 @@ Info: Agian ez da funtzionatuko zuzeneko emankizunetan"</string>
   <string name="morphe_queue_type_entry_2">Ilara natiboa</string>
   <string name="morphe_queue_type_entry_3">Morphe ilara</string>
   <string name="morphe_queue_type_entry_4">Morphe ilara, bezeroaren aldetik</string>
-  <string name="morphe_queue_add_flyout_menu_title">Gehitu feed-eko flyout ilara menu elementua</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Flyout elementu gehigarri bat gehitzen du. Aktibatu hau \"Gehitu ilarara\" ez bada ikusten</string>
   <string name="morphe_local_queue_sheet_title">Ilara</string>
   <string name="morphe_local_queue_open">Ilara (%s)</string>
   <string name="morphe_local_queue_clear">Garbitu dena</string>

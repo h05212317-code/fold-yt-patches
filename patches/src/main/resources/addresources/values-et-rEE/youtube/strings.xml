@@ -319,9 +319,6 @@ Muudatused hõlmavad:
   <string name="morphe_hide_keyword_content_search_title">Peida otsingutulemusi märksõnade põhjal</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Peida Tellimuste videoid märksõnade põhjal</string>
   <string name="morphe_hide_keyword_content_phrases_title">Peidetavad märksõnad</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Sisestage peidetavad märksõnad ja fraasid, eraldades need uue rea abil
-
-Märksõnad võivad olla suvaline tekst, mis kuvatakse videote pealkirjades või kanalite nimedes"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Avaleht / Tellimused / Otsing / Kommentaarid on filtreeritud, et peita sisu, mis vastab märksõnafraasidele
 
 Piirangud:
@@ -331,7 +328,6 @@ Piirangud:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Märksõna või fraasi jutumärkidesse panemine takistab osaliste vastete leidmist videote pealkirjades ja kanalite nimedes&lt;br&gt;&lt;br&gt;Näiteks,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; peidab video: &lt;b&gt;Kuidas tehisintellekt töötab?&lt;/b&gt;&lt;br&gt;kuid ei peida video: &lt;b&gt;Mida tähendab õiglane kasutamine?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Märksõnal on vastupidised deklaratsioonid: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Märksõna on liiga lühike ja vajab tsitaadimärke: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Märksõna peidab kõik videod: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Avaleht: %1$s
@@ -559,18 +555,11 @@ Kui video, millel on nupp Küsige, on üks kord avatud, töötab see funktsioon 
   <string name="morphe_export_download_folder_summary">"Eksportige rakenduses salvestatud videod oma seadme mällu, kasutades rakendusesse integreeritud allalaadimiste menüüd. Ekspordikausta muutmiseks puudutage seda
 
 Ekspordikaust: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Ekspordikaust</string>
-  <string name="morphe_export_download_folder_change">Muuda kaust</string>
-  <string name="morphe_export_download_folder_changed">Ekspordikaust on muudetud</string>
-  <string name="morphe_export_download_folder_reset">Ekspordikaust lähtestatud</string>
-  <string name="morphe_export_download_folder_missing">Eksportkausta %s ei leitud</string>
-  <string name="morphe_export_download_flyout_title">Ekspordi seadmesse</string>
   <string name="morphe_export_download_started">Video eksportimine</string>
   <string name="morphe_export_download_progress">Video eksportimine: %s%%</string>
   <string name="morphe_export_download_notification_channel">Videote eksportimine</string>
   <string name="morphe_export_download_saved">Video eksporditi asukohta %s</string>
   <string name="morphe_export_download_failed">Video eksportimine ebaõnnestus</string>
-  <string name="morphe_export_download_canceled">Eksportimine tühistati</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Hääletõlge</string>
   <string name="morphe_vot_screen_summary">Loetakse video altekirju koosal seadme tekst-kõne funktsiooni abil, sünkroonides need esitusega</string>
@@ -728,8 +717,6 @@ Info: Ei pruugi töötada võttesaadete puhul"</string>
   <string name="morphe_queue_type_entry_2">Kohalik järjekord</string>
   <string name="morphe_queue_type_entry_3">Morphe järjekord</string>
   <string name="morphe_queue_type_entry_4">Morphe\'i kliendipoolne järjekord</string>
-  <string name="morphe_queue_add_flyout_menu_title">Lisa voo hüpikmenüü järjekorra üksus</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Lisab täiendava hüpikmenüü üksuse. Aktiveeri see, kui \"Lisa järjekorda\" ei kuvata</string>
   <string name="morphe_local_queue_sheet_title">Järjekord</string>
   <string name="morphe_local_queue_open">Järjekord (%s)</string>
   <string name="morphe_local_queue_clear">Tühjenda kõik</string>

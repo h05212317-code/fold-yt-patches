@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Paryškinti naujus nustatymus</string>
   <string name="morphe_settings_new_indicator_days_summary">Kelių dienų laikotarpiu šalia nustatymų ir parinkčių, pridėtų atnaujinimo metu, bus rodomas taškas</string>
   <string name="morphe_settings_new_indicator_days_off">Išjungta</string>
+  <string name="morphe_settings_new_indicator_clear_title">Pažymėti visus nustatymus kaip peržiūrėtus</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Pašalinti tašką iš visų naujų nustatymų ir parinkčių</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Pažymėti visus nustatymus kaip peržiūrėtus?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Taškas pašalintas iš visų naujų nustatymų ir parinkčių. Ateities atnaujinimais pridėti nustatymai vis tiek bus išryškinti.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Paleiskite iš naujo, kad užbaigtumėte sąranką</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Patikrinkite, ar paketo pavadinimas teisingas ir ar programa įdiegta"</string>
   <string name="morphe_external_downloader_empty_warning">Paketo pavadinimas negali būti tuščias</string>
+  <string name="morphe_export_download_folder_dialog_title">Eksportavimo aplankas</string>
+  <string name="morphe_export_download_folder_change">Pakeisti aplanką</string>
+  <string name="morphe_export_download_folder_changed">Eksportavimo aplankas pakeistas</string>
+  <string name="morphe_export_download_folder_reset">Eksportavimo aplankas nustatytas iš naujo</string>
+  <string name="morphe_export_download_folder_missing">Nepavyko rasti eksportavimo aplanko %s</string>
+  <string name="morphe_export_download_flyout_title">Eksportuoti į įrenginį</string>
+  <string name="morphe_export_download_canceled">Eksportavimas atšauktas</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Pasirinktinis</string>
   <string name="morphe_custom_branding_icon_title">Programos piktograma</string>

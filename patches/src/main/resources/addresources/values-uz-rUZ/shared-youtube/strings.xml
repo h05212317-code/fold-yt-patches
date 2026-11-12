@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Yangi sozlamalarni belgilash</string>
   <string name="morphe_settings_new_indicator_days_summary">Yangilanish orqali qo\'shilgan sozlamalar va variantlar yonida nuqta ko\'rsatiladigan kunlar soni</string>
   <string name="morphe_settings_new_indicator_days_off">O\'chirilgan</string>
+  <string name="morphe_settings_new_indicator_clear_title">Barcha sozlamalarni ko\'rilgan deb belgilash</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Barcha yangi sozlamalar va variantlardan nuqtani olib tashlash</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Barcha sozlamalarni ko\'rilgan deb belgilash?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Barcha yangi sozlamalar va variantlardan nuqta olib tashlandi. Kelgusidagi yangilanishlar orqali qo\'shilgan sozlamalar hali ham belgilanadi.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Sozlashni tugatish uchun qayta ishga tushirish</string>
   <!-- layout.branding.baseCustomBrandingPatch -->

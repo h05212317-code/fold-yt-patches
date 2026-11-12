@@ -319,9 +319,6 @@ Breytingar fela í sér:
   <string name="morphe_hide_keyword_content_search_title">Fela leitarniðurstöður eftir leitarorðum</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Fela myndskeið í áskriftum eftir leitarorðum</string>
   <string name="morphe_hide_keyword_content_phrases_title">Leitarorð til að fela</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Sláðu inn leitarorð og phrases til að fela, aðskilin með nýjum línum
-
-Leitarorð geta verið hvaða texti sem er sem birtist í myndbandstitlum eða rásarnöfnum"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Heim / Áskriftir / Leit / Athugasemdir eru síuð til að fela efni sem samsvarar leitarorðum
 
 Takmörk:
@@ -331,7 +328,6 @@ Takmörk:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Ef leitarorð eða setning er sett innan tvöfaldra gæsalappa kemur í veg fyrir að hlutar heita myndskeiða og rásanafna passi&lt;br&gt;&lt;br&gt;Til dæmis,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; felur myndskeiðið: &lt;b&gt;Hvernig virkar AI?&lt;/b&gt;&lt;br&gt;en felur ekki: &lt;b&gt;Hvað þýðir sanngjörn notkun?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Leitarorð hefur andstæðar skilgreiningar: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Leitarorð er of stutt og þarf gæsalappir: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Leitarorð mun fela öll myndskeið: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Heimasíða: %1$s
@@ -559,18 +555,11 @@ Eftir að myndskeið með Ask-hnappnum hefur verið opnað einu sinni virkar eig
   <string name="morphe_export_download_folder_summary">"Flytja út myndbönd sem eru vistuð í forritinu í geymslu tækisins með niðurhalsvalmyndinni. Ýttu til að breyta útflutningsmöppu
 
 Útflutningsmappa: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Útflutningsmappa</string>
-  <string name="morphe_export_download_folder_change">Breyta möppu</string>
-  <string name="morphe_export_download_folder_changed">Útflutningsmöppu breytt</string>
-  <string name="morphe_export_download_folder_reset">Útflutningsmöppu endurstillt</string>
-  <string name="morphe_export_download_folder_missing">Gat ekki fundið útflutningsmöppuna %s</string>
-  <string name="morphe_export_download_flyout_title">Flytja í tæki</string>
   <string name="morphe_export_download_started">Flyt myndskeið út</string>
   <string name="morphe_export_download_progress">Útflutningur myndbands: %s%%</string>
   <string name="morphe_export_download_notification_channel">Útflutningur myndskeiða</string>
   <string name="morphe_export_download_saved">Myndband flutt á %s</string>
   <string name="morphe_export_download_failed">Ekki tókst að flytja út myndbandið</string>
-  <string name="morphe_export_download_canceled">Útflutningi hætt</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Raddsetning þýðinga</string>
   <string name="morphe_vot_screen_summary">Lesa upp texta myndskeiðsins með texta-í-tal á tækinu, samstilltan við spilun</string>
@@ -728,8 +717,6 @@ Athugið: Virkar ekki alltaf í beinum streymum"</string>
   <string name="morphe_queue_type_entry_2">Innbyggð biðröð</string>
   <string name="morphe_queue_type_entry_3">Morphe biðröð</string>
   <string name="morphe_queue_type_entry_4">Morphe biðröð á biðlarahlið</string>
-  <string name="morphe_queue_add_flyout_menu_title">Bæta valmyndaratriði í biðröð við í straumsprettivalmynd</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Bætir við viðbótaratriði í sprettivalmynd. Virkjaðu þetta ef \"Bæta í biðröð\" birtist ekki</string>
   <string name="morphe_local_queue_sheet_title">Biðröð</string>
   <string name="morphe_local_queue_open">Biðröð (%s)</string>
   <string name="morphe_local_queue_clear">Hreinsa allt</string>

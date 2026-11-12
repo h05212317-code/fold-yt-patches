@@ -319,9 +319,6 @@ As mudanças incluem:
   <string name="morphe_hide_keyword_content_search_title">Ocultar resultados de busca com palavras-chave</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Ocultar vídeos de inscrições com palavras-chave</string>
   <string name="morphe_hide_keyword_content_phrases_title">Palavras-chave para ocultar</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Insira palavras-chave e frases para ocultar, separadas por novas linhas
-
-As palavras-chave podem ser qualquer texto exibido nos títulos dos vídeos ou nomes dos canais"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Início / Inscrições / Pesquisa / Comentários são filtrados para ocultar conteúdo que corresponde a frases de palavras-chave
 
 Limitações:
@@ -331,7 +328,6 @@ Limitações:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Colocar uma palavra-chave/frase entre aspas duplas impedirá correspondências parciais de títulos de vídeos e nomes de canais&lt;br&gt;&lt;br&gt;Por exemplo,&lt;br&gt;&lt;b&gt;\"ia\"&lt;/b&gt; ocultará o vídeo: &lt;b&gt;Como funciona a IA?&lt;/b&gt;&lt;br&gt;mas não ocultará: &lt;b&gt;Como criar um canal do zero?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">A palavra-chave tem declarações conflitantes: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">A palavra-chave é muito curta e requer aspas: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">A palavra-chave irá ocultar todos os vídeos: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Início: %1$s
@@ -559,18 +555,11 @@ Depois que um vídeo com o botão Ask for aberto uma vez, o recurso funciona com
   <string name="morphe_export_download_folder_summary">"Exporte vídeos salvos no aplicativo para o armazenamento do seu dispositivo usando o menu suspenso de downloads do aplicativo. Toque para alterar a pasta de exportação
 
 Pasta de exportação: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Pasta de exportação</string>
-  <string name="morphe_export_download_folder_change">Alterar pasta</string>
-  <string name="morphe_export_download_folder_changed">Pasta de exportação alterada</string>
-  <string name="morphe_export_download_folder_reset">Pasta de exportação redefinida</string>
-  <string name="morphe_export_download_folder_missing">Não foi possível encontrar a pasta de exportação %s</string>
-  <string name="morphe_export_download_flyout_title">Exportar para o dispositivo</string>
   <string name="morphe_export_download_started">Exportando vídeo</string>
   <string name="morphe_export_download_progress">Exportando vídeo: %s%%</string>
   <string name="morphe_export_download_notification_channel">Exportações de vídeos</string>
   <string name="morphe_export_download_saved">Vídeo exportado para %s</string>
   <string name="morphe_export_download_failed">Não foi possível exportar o vídeo</string>
-  <string name="morphe_export_download_canceled">Exportação cancelada</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Tradução por voz</string>
   <string name="morphe_vot_screen_summary">Leia as legendas do vídeo em voz alta usando a conversão de texto em fala no dispositivo, sincronizada com a reprodução</string>
@@ -729,8 +718,6 @@ Nota: pode não funcionar em transmissões ao vivo"</string>
   <string name="morphe_queue_type_entry_2">Fila nativa</string>
   <string name="morphe_queue_type_entry_3">Fila do Morphe</string>
   <string name="morphe_queue_type_entry_4">Fila do Morphe no cliente</string>
-  <string name="morphe_queue_add_flyout_menu_title">Adicionar item de fila ao menu suspenso do feed</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Adiciona um item adicional ao menu suspenso. Ative isto se \"Adicionar à fila\" não for exibido</string>
   <string name="morphe_local_queue_sheet_title">Fila</string>
   <string name="morphe_local_queue_open">Fila (%s)</string>
   <string name="morphe_local_queue_clear">Limpar tudo</string>

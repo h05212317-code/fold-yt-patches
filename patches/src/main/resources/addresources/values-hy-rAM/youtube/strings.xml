@@ -319,9 +319,6 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_search_title">Թաքցնել որոնման արդյունքները ըստ բանալի բառերի</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Թաքցնել Բաժանորդագրությունների տեսանյութերը ըստ բանալի բառերի</string>
   <string name="morphe_hide_keyword_content_phrases_title">Թաքցնելու բանալի բառերը</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Մուտքագրեք թաքցնելու բանալի բառերը և արտահայտությունները՝ բաժանված նոր տողերով
-
-Բանալի բառերը կարող են լինել ցանկացած տեքստ, որը ցուցադրվում է տեսանյութերի վերնագրերում կամ ալիքների անվանումներում"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Գլխավոր / Բաժանորդագրություններ / Որոնում / Մեկնաբանությունները զտվում են՝ թաքցնելու համար բանալի արտահայտություններին համապատասխանող բովանդակությունը
 
 Սահմանափակումներ
@@ -331,7 +328,6 @@ Second \"item\" text"</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Բանալի բառը/արտահայտությունը չակերտներով շրջելը կկանխի տեսանյութերի վերնագրերի և ալիքների անվանումների մասնակի համընկնումները&lt;br&gt;&lt;br&gt;Օրինակ՝&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt;-ը կթաքցնի տեսանյութը՝ &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;բայց չի թաքցնի՝ &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Բանալի բառն ունի հակասող հայտարարություններ՝ %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Բանալի բառը չափազանց կարճ է և պահանջում է չակերտներ՝ %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Բանալի բառը կթաքցնի բոլոր տեսանյութերը՝ %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Գլխավոր էջ: %1$s
@@ -559,18 +555,11 @@ Second \"item\" text"</string>
   <string name="morphe_export_download_folder_summary">"Արտահանեք հավելվածում պահպանված տեսանյութերը ձեր սարքի հիշողության մեջ՝ օգտագործելով ներբեռնումների լողացող ընտրացանկը: Հպեք՝ արտահանման թղթապանակը փոխելու համար
 
 Արտահանման թղթապանակ՝ %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Արտահանման թղթապանակ</string>
-  <string name="morphe_export_download_folder_change">Փոխել թղթապանակը</string>
-  <string name="morphe_export_download_folder_changed">Արտահանման թղթապանակը փոփոխված է</string>
-  <string name="morphe_export_download_folder_reset">Արտահանման թղթապանակը վերակայված է</string>
-  <string name="morphe_export_download_folder_missing">Չհաջողվեց գտնել արտահանման թղթապանակը %s</string>
-  <string name="morphe_export_download_flyout_title">Արտահանել սարքի մեջ</string>
   <string name="morphe_export_download_started">Տեսանյութն արտահանվում է</string>
   <string name="morphe_export_download_progress">Տեսանյութի արտահանում: %s%%</string>
   <string name="morphe_export_download_notification_channel">Տեսանյութերի արտահանում</string>
   <string name="morphe_export_download_saved">Տեսանյութն արտահանվեց դեպի %s</string>
   <string name="morphe_export_download_failed">Չհաջողվեց արտահանել տեսանյութը</string>
-  <string name="morphe_export_download_canceled">Արտահանումը չեղարկվեց</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Ձայնային թարգմանություն</string>
   <string name="morphe_vot_screen_summary">Բարձրաձայն կարդալ տեսանյութի ենթագրերը՝ օգտագործելով սարքի տեքստ-to-speech-ը, համաժամեցնելով նվագարկման հետ</string>
@@ -728,8 +717,6 @@ Second \"item\" text"</string>
   <string name="morphe_queue_type_entry_2">YouTube-ի հերթ</string>
   <string name="morphe_queue_type_entry_3">Morphe հերթ</string>
   <string name="morphe_queue_type_entry_4">Morphe հերթ՝ հաճախորդի կողմից</string>
-  <string name="morphe_queue_add_flyout_menu_title">Ավելացնել feed-ի flyout հերթի մենյուի տարրը</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Ավելացնում է լրացուցիչ flyout տարր: Միացրեք սա, եթե \"Ավելացնել հերթի մեջ\"-ը չի ցուցադրվում</string>
   <string name="morphe_local_queue_sheet_title">Հերթ</string>
   <string name="morphe_local_queue_open">Հերթ (%s)</string>
   <string name="morphe_local_queue_clear">Մաքրել բոլորը</string>

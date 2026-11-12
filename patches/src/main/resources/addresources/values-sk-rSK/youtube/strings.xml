@@ -319,9 +319,6 @@ Zmeny zahŕňajú:
   <string name="morphe_hide_keyword_content_search_title">Skryť výsledky vyhľadávania pomocou kľúčových slov</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skryť videá sekcie Odberov pomocou kľúčových slov</string>
   <string name="morphe_hide_keyword_content_phrases_title">Kľúčové slová na skrytie</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Zadajte kľúčové slová a frázy, ktoré chcete skryť, oddelené novými riadkami
-
-Kľúčové slová môžu byť akýkoľvek text zobrazený v názvoch videí alebo názvoch kanálov"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Domov / Odobery / Vyhľadávanie / Komentáre sú filtrované tak, aby sa skryl obsah zodpovedajúci kľúčovým frázam
 
 Obmedzenia:
@@ -331,7 +328,6 @@ Obmedzenia:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Ohraničením kľúčového slova/frázy do úvodzoviek zabránite čiastočnej zhode titulov videí a názvov kanálov&lt;br&gt;&lt;br&gt;Napríklad,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; skryje video: &lt;b&gt;Ako funguje AI?&lt;/b&gt;&lt;br&gt;ale neskryje: &lt;b&gt;Čo znamená fair use?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Kľúčové slovo má konfliktné deklarácie: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Kľúčové slovo je príliš krátke a vyžaduje úvodzovky: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Kľúčové slovo skryje všetky videá: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Domov: %1$s
@@ -557,18 +553,11 @@ Hlásenia sú verejné a pred pridaním kanála do zoznamu sa posudzujú. Odstr�
   <string name="morphe_export_download_folder_summary">"Exportujte videá uložené v aplikácii do úložiska zariadenia pomocou ponuky sťahovaní v aplikácii. Klepnutím zmeníte exportovaciu zložku
 
 Exportovacia zložka: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Exportovacia zložka</string>
-  <string name="morphe_export_download_folder_change">Zmeniť zložku</string>
-  <string name="morphe_export_download_folder_changed">Exportovacia zložka bola zmenená</string>
-  <string name="morphe_export_download_folder_reset">Exportovacia zložka bola resetovaná</string>
-  <string name="morphe_export_download_folder_missing">Nepodarilo sa nájsť exportný priečinok %s</string>
-  <string name="morphe_export_download_flyout_title">Exportovať do zariadenia</string>
   <string name="morphe_export_download_started">Exportovanie videa</string>
   <string name="morphe_export_download_progress">Exportovanie videa: %s%%</string>
   <string name="morphe_export_download_notification_channel">Exporty videí</string>
   <string name="morphe_export_download_saved">Video bolo exportované do %s</string>
   <string name="morphe_export_download_failed">Nepodarilo sa exportovať video</string>
-  <string name="morphe_export_download_canceled">Export zrušený</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Preklad hlasového komentára</string>
   <string name="morphe_vot_screen_summary">Nahlas prečítajte titulky videa pomocou text-to-speech priamo v zariadení, synchronizovane s prehrávaním</string>
@@ -726,8 +715,6 @@ Poznámka: Možno nebude fungovať na živých prenosoch"</string>
   <string name="morphe_queue_type_entry_2">Natívna rada</string>
   <string name="morphe_queue_type_entry_3">Rada Morphe</string>
   <string name="morphe_queue_type_entry_4">Klientská strana rady Morphe</string>
-  <string name="morphe_queue_add_flyout_menu_title">Pridať položku ponuky do rozbaľovacej ponuky fronty informačného kanála</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Pridá ďalšiu položku do rozbaľovacej ponuky. Povoľte, ak sa \"Pridať do frontu\" nezobrazuje</string>
   <string name="morphe_local_queue_sheet_title">Fronta</string>
   <string name="morphe_local_queue_open">Fronta (%s)</string>
   <string name="morphe_local_queue_clear">Vyčistiť všetko</string>

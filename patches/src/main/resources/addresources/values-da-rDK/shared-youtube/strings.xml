@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Fremhæv nye indstillinger</string>
   <string name="morphe_settings_new_indicator_days_summary">Antal dage en prik vises ved siden af indstillinger og valgmuligheder tilføjet af en opdatering</string>
   <string name="morphe_settings_new_indicator_days_off">Fra</string>
+  <string name="morphe_settings_new_indicator_clear_title">Marker alle indstillinger som sete</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Fjern prikken fra alle nye indstillinger og muligheder</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Marker alle indstillinger som sete?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Prikken fjernes fra alle nye indstillinger og muligheder. Indstillinger tilføjet via fremtidige opdateringer vil stadig være fremhævet.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Genstart for at færdiggøre opsætningen</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Kontroller, at pakkenavnet er korrekt, og at appen er installeret"</string>
   <string name="morphe_external_downloader_empty_warning">Pakkenavnet må ikke være tomt</string>
+  <string name="morphe_export_download_folder_dialog_title">Eksporteringsmappe</string>
+  <string name="morphe_export_download_folder_change">Skift mappe</string>
+  <string name="morphe_export_download_folder_changed">Eksportmappe ændret</string>
+  <string name="morphe_export_download_folder_reset">Eksportmappe nulstillet</string>
+  <string name="morphe_export_download_folder_missing">Kunne ikke finde eksportmappe %s</string>
+  <string name="morphe_export_download_flyout_title">Eksporter til enhed</string>
+  <string name="morphe_export_download_canceled">Eksport annulleret</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Brugerdefineret</string>
   <string name="morphe_custom_branding_icon_title">Appikon</string>

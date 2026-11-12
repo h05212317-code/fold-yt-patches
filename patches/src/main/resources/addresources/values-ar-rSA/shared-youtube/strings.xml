@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">تمييز الإعدادات الجديدة</string>
   <string name="morphe_settings_new_indicator_days_summary">عدد الأيام التي تظهر فيها النقطة بجانب الإعدادات والخيارات التي أُضيفت بواسطة التحديث</string>
   <string name="morphe_settings_new_indicator_days_off">متوقف</string>
+  <string name="morphe_settings_new_indicator_clear_title">تحديد جميع الإعدادات كمشاهدة</string>
+  <string name="morphe_settings_new_indicator_clear_summary">إزالة النقطة من جميع الإعدادات والخيارات الجديدة</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">تحديد جميع الإعدادات كمشاهدة؟</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">تتم إزالة النقطة من جميع الإعدادات والخيارات الجديدة. ستظل الإعدادات المضافة في التحديثات المستقبلية مميزة.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">إعادة التشغيل لإنهاء الإعداد</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 تحقق من صحة اسم الحزمة وأن التطبيق مثبت"</string>
   <string name="morphe_external_downloader_empty_warning">لا يمكن أن يكون اسم الحزمة فارغًا</string>
+  <string name="morphe_export_download_folder_dialog_title">مجلد التصدير</string>
+  <string name="morphe_export_download_folder_change">تغيير المجلد</string>
+  <string name="morphe_export_download_folder_changed">تم تغيير مجلد التصدير</string>
+  <string name="morphe_export_download_folder_reset">إعادة تعيين مجلد التصدير</string>
+  <string name="morphe_export_download_folder_missing">تعذر العثور على مجلد التصدير %s</string>
+  <string name="morphe_export_download_flyout_title">تصدير إلى جهاز</string>
+  <string name="morphe_export_download_canceled">تم إلغاء التصدير</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">مُخصّص</string>
   <string name="morphe_custom_branding_icon_title">أيقونة التطبيق</string>

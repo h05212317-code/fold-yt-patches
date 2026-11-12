@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Wyróżniaj nowe ustawienia</string>
   <string name="morphe_settings_new_indicator_days_summary">Liczba dni, przez które obok ustawień i opcji dodanych w aktualizacji wyświetlana jest kropka</string>
   <string name="morphe_settings_new_indicator_days_off">Wyłączone</string>
+  <string name="morphe_settings_new_indicator_clear_title">Oznacz wszystkie ustawienia jako przeczytane</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Usuń kropkę ze wszystkich nowych ustawień i opcji</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Oznaczyć wszystkie ustawienia jako przeczytane?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Kropka zostanie usunięta ze wszystkich nowych ustawień i opcji. Ustawienia dodane w przyszłych aktualizacjach nadal będą wyróżnione.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Uruchom ponownie, aby dokończyć konfigurację</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Upewnij się, że nazwa pakietu jest poprawna i czy aplikacja jest zainstalowana"</string>
   <string name="morphe_external_downloader_empty_warning">Nazwa pakietu nie może być pusta</string>
+  <string name="morphe_export_download_folder_dialog_title">Folder eksportu</string>
+  <string name="morphe_export_download_folder_change">Zmień folder</string>
+  <string name="morphe_export_download_folder_changed">Zmieniono folder eksportu</string>
+  <string name="morphe_export_download_folder_reset">Zresetowano folder eksportu</string>
+  <string name="morphe_export_download_folder_missing">Nie udało się znaleźć folderu eksportu %s</string>
+  <string name="morphe_export_download_flyout_title">Eksportuj na urządzenie</string>
+  <string name="morphe_export_download_canceled">Anulowano eksportowanie</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Własna</string>
   <string name="morphe_custom_branding_icon_title">Ikona aplikacji</string>

@@ -319,9 +319,6 @@ Second \"item\" text"</string>
   <string name="morphe_hide_keyword_content_search_title">कीवर्डद्वारे शोध परिणाम लपवा</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">कीवर्डद्वारे सबस्क्रिप्शन व्हिडिओ लपवा</string>
   <string name="morphe_hide_keyword_content_phrases_title">लपवण्यासाठी कीवर्ड</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"लपवण्यासाठी कीवर्ड्स आणि वाक्यांश प्रविष्ट करा, जे नवीन ओळींनी वेगळे केलेले असतील
-
-कीवर्ड्स हे व्हिडिओ शीर्षक किंवा चॅनेल नावांमध्ये दिसणारे कोणतेही मजकूर असू शकतात"</string>
   <string name="morphe_hide_keyword_content_about_summary">"होम / सबस्क्रिप्शन / सर्च / कमेंट्स मधून कीवर्ड वाक्यांशेशी जुळणारे कंटेंट लपवण्यासाठी फिल्टर केले जातात
 
 मर्यादा:
@@ -331,7 +328,6 @@ Second \"item\" text"</string>
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">कीवर्ड/वाक्यांशला दुहेरी अवतरणांमध्ये टाकल्यास व्हिडिओ शीर्षक आणि चॅनेल नावांचे आंशिक जुळण टाळता येईल&lt;br&gt;&lt;br&gt;उदाहरणार्थ,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; व्हिडिओ लपवेल: &lt;b&gt;AI कसे कार्य करते?&lt;/b&gt;&lt;br&gt;पण लपवणार नाही: &lt;b&gt; fair use चा अर्थ काय आहे?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">कीवर्डची विरोधाभासी घोषणा आहे: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">कीवर्ड खूप लहान आहे आणि अवतरण आवश्यक आहेत: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">कीवर्ड सर्व व्हिडिओ लपवेल: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• होम: %1$s
@@ -559,18 +555,11 @@ Second \"item\" text"</string>
   <string name="morphe_export_download_folder_summary">"इन-ॲप डाउनलोड्स फ्लायआउट मेनू वापरून इन-ॲप सेव्ह केलेले व्हिडिओ तुमच्या डिव्हाइस स्टोरेजमध्ये एक्सपोर्ट करा. एक्सपोर्ट फोल्डर बदलण्यासाठी टॅप करा
 
 एक्सपोर्ट फोल्डर: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">एक्सपोर्ट फोल्डर</string>
-  <string name="morphe_export_download_folder_change">फोल्डर बदला</string>
-  <string name="morphe_export_download_folder_changed">एक्सपोर्ट फोल्डर बदलले</string>
-  <string name="morphe_export_download_folder_reset">एक्सपोर्ट फोल्डर रीसेट केले</string>
-  <string name="morphe_export_download_folder_missing">एक्सपोर्ट फोल्डर %s सापडले नाही</string>
-  <string name="morphe_export_download_flyout_title">डिव्हाइसवर एक्सपोर्ट करा</string>
   <string name="morphe_export_download_started">व्हिडिओ एक्सपोर्ट होत आहे</string>
   <string name="morphe_export_download_progress">व्हिडिओ एक्सपोर्ट होत आहे: %s%%</string>
   <string name="morphe_export_download_notification_channel">व्हिडिओ एक्सपोर्ट्स</string>
   <string name="morphe_export_download_saved">व्हिडिओ %s मध्ये एक्सपोर्ट केला</string>
   <string name="morphe_export_download_failed">व्हिडिओ एक्सपोर्ट करता आला नाही</string>
-  <string name="morphe_export_download_canceled">एक्सपोर्ट रद्द केला</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">व्हॉईस ओव्हर भाषांतर</string>
   <string name="morphe_vot_screen_summary">डिव्हाइसवरील टेक्स्ट-टू-स्पीच वापरून व्हिडिओ कॅप्शन मोठ्याने वाचा, जे प्लेबॅकसह सिंक्रोनाइझ केलेले असेल.</string>
@@ -729,8 +718,6 @@ OpenRouter.ai उघडण्यासाठी येथे टॅप करा
   <string name="morphe_queue_type_entry_2">नेटिव्ह रांग</string>
   <string name="morphe_queue_type_entry_3">Morphe रांग</string>
   <string name="morphe_queue_type_entry_4">Morphe रांग क्लायंट साइड</string>
-  <string name="morphe_queue_add_flyout_menu_title">फीड फ्लायआउट रांग मेनू आयटम जोडा</string>
-  <string name="morphe_queue_add_flyout_menu_summary">एक अतिरिक्त फ्लायआउट आयटम जोडते. \'रांगेत जोडा\' दिसत नसल्यास हे सक्षम करा.</string>
   <string name="morphe_local_queue_sheet_title">रांग</string>
   <string name="morphe_local_queue_open">रांग (%s)</string>
   <string name="morphe_local_queue_clear">सर्व हटवा</string>

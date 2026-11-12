@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Izcelt jaunus iestatījumus</string>
   <string name="morphe_settings_new_indicator_days_summary">Dienu skaits, pēc kuras blakus atjauninājumā pievienotiem iestatījumiem un iespējām vairs netiks rādīts punkts</string>
   <string name="morphe_settings_new_indicator_days_off">Izslēgts</string>
+  <string name="morphe_settings_new_indicator_clear_title">Atzīmēt visus iestatījumus kā redzētus</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Noņemt punktu no visiem jaunajiem iestatījumiem un iespējām</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Atzīmēt visus iestatījumus kā redzētus?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Punktums tiek noņemts no visiem jaunajiem iestatījumiem un iespējām. Nākamajās atjauninājumā pievienotie iestatījumi joprojām tiks izcelti.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Restartējiet, lai pabeigtu konfigurēšanu</string>
   <!-- layout.branding.baseCustomBrandingPatch -->

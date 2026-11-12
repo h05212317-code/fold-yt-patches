@@ -319,9 +319,6 @@ Els canvis inclouen:
   <string name="morphe_hide_keyword_content_search_title">Amagar resultats de cerca per paraules clau</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Amagar vídeos de Subscripcions per paraules clau</string>
   <string name="morphe_hide_keyword_content_phrases_title">Paraules clau per ocultar</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Introduïu paraules clau i frases per ocultar, separades per salts de línia
-
-Les paraules clau poden ser qualsevol text que aparegui als títols dels vídeos o als noms dels canals"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Inici / Subscripcions / Cerca / Comentaris es filtren per ocultar el contingut que coincideix amb les frases de paraules clau
 
 Limitacions:
@@ -331,7 +328,6 @@ Limitacions:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Envolir una paraula clau/frase amb cometes evitarà coincidències parcials dels títols dels vídeos i dels noms dels canals&lt;br&gt;&lt;br&gt;Per exemple,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; ocultarà el vídeo: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;però no ocultarà: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">La paraula clau té declaracions contradictòries: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">La paraula clau és massa curta i requereix cometes: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">La paraula clau ocultarà tots els vídeos: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Inici: %1$s
@@ -559,18 +555,11 @@ Un cop s'ha obert un vídeo amb el botó Ask, la funció funciona amb tots els v
   <string name="morphe_export_download_folder_summary">"Exporta els vídeos descarregats dins de l'app a l'emmagatzematge del teu dispositiu mitjançant el menú desplegable de descàrregues de l'app. Toqueu per canviar la carpeta d'exportació
 
 Carpeta d'exportació: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Carpeta d\'exportació</string>
-  <string name="morphe_export_download_folder_change">Canvia la carpeta</string>
-  <string name="morphe_export_download_folder_changed">Carpeta d\'exportació canviada</string>
-  <string name="morphe_export_download_folder_reset">Carpeta d\'exportació restablerta</string>
-  <string name="morphe_export_download_folder_missing">No s\'ha pogut trobar la carpeta d\'exportació %s</string>
-  <string name="morphe_export_download_flyout_title">Exporta al dispositiu</string>
   <string name="morphe_export_download_started">Exportant el vídeo</string>
   <string name="morphe_export_download_progress">Exportant el vídeo: %s%%</string>
   <string name="morphe_export_download_notification_channel">Exportacions de vídeos</string>
   <string name="morphe_export_download_saved">Vídeo exportat a %s</string>
   <string name="morphe_export_download_failed">No s\'ha pogut exportar el vídeo</string>
-  <string name="morphe_export_download_canceled">Exportació cancel·lada</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Traducció de veu en off</string>
   <string name="morphe_vot_screen_summary">Llegeix els subtítols del vídeo en veu alta mitjançant el text a veu del dispositiu, sincronitzat amb la reproducció</string>
@@ -728,8 +717,6 @@ Info: Potser no funcioni en les retransmissions en directe"</string>
   <string name="morphe_queue_type_entry_2">Cua nativa</string>
   <string name="morphe_queue_type_entry_3">Cua de Morphe</string>
   <string name="morphe_queue_type_entry_4">Cua de Morphe del costat del client</string>
-  <string name="morphe_queue_add_flyout_menu_title">Afegeix l\'element del menú desplegable de la cua del feed</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Afegeix un element desplegable addicional. Activa-ho si no apareix \"Afegeix a la cua\"</string>
   <string name="morphe_local_queue_sheet_title">Cua</string>
   <string name="morphe_local_queue_open">Cua (%s)</string>
   <string name="morphe_local_queue_clear">Esborra-ho tot</string>

@@ -319,9 +319,6 @@ Nogle server-side layouts kan måske ikke gå tilbage.
   <string name="morphe_hide_keyword_content_search_title">Skjul søgeresultater via søgeord</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Skjul abonnementsvideoer via søgeord</string>
   <string name="morphe_hide_keyword_content_phrases_title">Nøgleord at skjule</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Indtast søgeord og sætninger, der skal skjules, adskilt af nye linjer
-
-Søgeord kan være enhver tekst, der vises i videotitler eller kanalnavne"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Hjem / Abonnementer / Søg / Kommentarer filtreres for at skjule indhold, der matcher søgeordssætninger
 
 Begrænsninger:
@@ -331,7 +328,6 @@ Begrænsninger:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">At omringe et nøgleord/sætning med citationstegn vil forhindre delvise matches af videotitler og kanalnavne&lt;br&gt;&lt;br&gt;For eksempel&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; vil skjule videoen: &lt;b&gt;How does AI work?&lt;/b&gt;&lt;br&gt;, men skjuler ikke: &lt;b&gt;What does fair use mean?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Nøgleord har modstridende erklæringer: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Søgeordet er for kort og kræver citationstegn: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Nøgleord vil skjule alle videoer: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Hjem: %1$s
@@ -559,18 +555,11 @@ Efter at en video med Ask-knappen er åbnet én gang, fungerer funktionen med al
   <string name="morphe_export_download_folder_summary">"Eksporter videoer gemt i appen til din enhedslager ved hjælp af menuen til downloads i appen. Tryk for at ændre eksportermappen
 
 Eksportermappe: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Eksportermappe</string>
-  <string name="morphe_export_download_folder_change">Skift mappe</string>
-  <string name="morphe_export_download_folder_changed">Eksportermappe ændret</string>
-  <string name="morphe_export_download_folder_reset">Eksportermappe nulstillet</string>
-  <string name="morphe_export_download_folder_missing">Kunne ikke finde eksportmappen %s</string>
-  <string name="morphe_export_download_flyout_title">Eksporter til enhed</string>
   <string name="morphe_export_download_started">Eksporterer video</string>
   <string name="morphe_export_download_progress">Eksporterer video: %s%%</string>
   <string name="morphe_export_download_notification_channel">Videoeksport</string>
   <string name="morphe_export_download_saved">Video eksporteret til %s</string>
   <string name="morphe_export_download_failed">Kunne ikke eksportere videoen</string>
-  <string name="morphe_export_download_canceled">Eksportering annulleret</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Oplæsning af oversættelse</string>
   <string name="morphe_vot_screen_summary">Læs videoundertitler højt ved hjælp af tekst-til-tale på enheden, synkroniseret med afspilningen</string>
@@ -728,8 +717,6 @@ Info: Virker muligvis ikke på live streams"</string>
   <string name="morphe_queue_type_entry_2">Indbygget kø</string>
   <string name="morphe_queue_type_entry_3">Morphe-kø</string>
   <string name="morphe_queue_type_entry_4">Morphe-klientkø</string>
-  <string name="morphe_queue_add_flyout_menu_title">Tilføj feed-flyout-kø-menupunkt</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Tilføjer et ekstra flyout-element. Aktiver dette, hvis \"Tilføj til kø\" ikke vises.</string>
   <string name="morphe_local_queue_sheet_title">Kø</string>
   <string name="morphe_local_queue_open">Kø (%s)</string>
   <string name="morphe_local_queue_clear">Ryd alt</string>

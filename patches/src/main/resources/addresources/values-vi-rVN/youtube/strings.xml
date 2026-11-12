@@ -319,9 +319,6 @@ Các thay đổi bao gồm:
   <string name="morphe_hide_keyword_content_search_title">Ẩn kết quả tìm kiếm bằng từ khóa</string>
   <string name="morphe_hide_keyword_content_subscriptions_title">Ẩn video kênh đăng ký bằng từ khóa</string>
   <string name="morphe_hide_keyword_content_phrases_title">Từ khóa để ẩn</string>
-  <string name="morphe_hide_keyword_content_phrases_summary">"Nhập các từ khóa và cụm từ muốn ẩn, phân tách bằng các dòng mới
-
-Từ khóa có thể là bất kỳ văn bản nào hiển thị trong tiêu đề video hoặc tên kênh"</string>
   <string name="morphe_hide_keyword_content_about_summary">"Trang chủ / Kênh đăng ký / Tìm kiếm / Bình luận được lọc để ẩn nội dung khớp với cụm từ khóa
 
 Hạn chế:
@@ -331,7 +328,6 @@ Hạn chế:
   <!-- Translations must use a localized example. For languages that do not use spaces between words (Chinese, Japanese, etc.) the English AI example should be used since no localized examples exist. Or if using machine translations, or if nobody wants to think of a localized example, then the English 'ai' example should be left as-is. -->
   <string name="morphe_hide_keyword_content_about_whole_words_summary">Đặt từ hoặc cụm từ cần lọc trong dấu ngoặc kép sẽ ngăn chặn các kết quả chỉ trùng một phần với tiêu đề video và tên kênh&lt;br&gt;&lt;br&gt;Ví dụ,&lt;br&gt;&lt;b&gt;\"ai\"&lt;/b&gt; sẽ ẩn video: &lt;b&gt;AI hoạt động ra sao?&lt;/b&gt;&lt;br&gt;nhưng sẽ không ẩn: &lt;b&gt;Hai lai nghĩa là gì?&lt;/b&gt;</string>
   <!-- Translations of this should not be longer than the original English text, otherwise the text can be clipped and not entirely shown. -->
-  <string name="morphe_hide_keyword_toast_invalid_conflicting">Từ khóa có các định nghĩa mâu thuẫn với nhau. %s</string>
   <string name="morphe_hide_keyword_toast_invalid_length">Từ khóa quá ngắn và cần phải có dấu ngoặc kép: %s</string>
   <string name="morphe_hide_keyword_toast_invalid_broad">Từ khóa sẽ ẩn tất cả video: %s</string>
   <string name="morphe_hide_keyword_content_stats_hidden_breakdown">"• Trang chủ: %1$s
@@ -559,18 +555,11 @@ Sau khi mở một video có nút Ask một lần, tính năng này hoạt độ
   <string name="morphe_export_download_folder_summary">"Xuất các video đã lưu trong ứng dụng sang bộ nhớ thiết bị bằng menu tải xuống trong ứng dụng. Nhấn để thay đổi thư mục xuất
 
 Thư mục xuất: %s"</string>
-  <string name="morphe_export_download_folder_dialog_title">Thư mục xuất</string>
-  <string name="morphe_export_download_folder_change">Thay đổi thư mục</string>
-  <string name="morphe_export_download_folder_changed">Đã thay đổi thư mục xuất</string>
-  <string name="morphe_export_download_folder_reset">Đã đặt lại thư mục xuất</string>
-  <string name="morphe_export_download_folder_missing">Không tìm thấy thư mục xuất %s</string>
-  <string name="morphe_export_download_flyout_title">Xuất sang thiết bị</string>
   <string name="morphe_export_download_started">Đang xuất video</string>
   <string name="morphe_export_download_progress">Đang xuất video: %s%%</string>
   <string name="morphe_export_download_notification_channel">Xuất video</string>
   <string name="morphe_export_download_saved">Video đã được xuất vào %s</string>
   <string name="morphe_export_download_failed">Không thể xuất video</string>
-  <string name="morphe_export_download_canceled">Đã hủy xuất</string>
   <!-- video.voiceovertranslation.voiceOverTranslationPatch -->
   <string name="morphe_vot_screen_title">Dịch giọng nói</string>
   <string name="morphe_vot_screen_summary">Đọc to phụ đề video bằng tính năng chuyển văn bản thành giọng nói trên thiết bị, đồng bộ với video</string>
@@ -729,8 +718,6 @@ Lưu ý: Có thể không hoạt động với video phát trực tiếp"</strin
   <string name="morphe_queue_type_entry_2">Hàng chờ gốc</string>
   <string name="morphe_queue_type_entry_3">Hàng chờ Morphe</string>
   <string name="morphe_queue_type_entry_4">Máy khách hàng chờ Morphe phía client</string>
-  <string name="morphe_queue_add_flyout_menu_title">Thêm menu hàng chờ trên trang video</string>
-  <string name="morphe_queue_add_flyout_menu_summary">Thêm tùy chọn vào menu bổ sung. Bật tùy chọn này nếu không thấy \"Thêm vào hàng chờ\"</string>
   <string name="morphe_local_queue_sheet_title">Hàng đợi</string>
   <string name="morphe_local_queue_open">Hàng đợi (%s)</string>
   <string name="morphe_local_queue_clear">Xóa tất cả</string>

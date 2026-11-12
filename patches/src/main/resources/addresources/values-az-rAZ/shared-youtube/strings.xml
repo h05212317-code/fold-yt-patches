@@ -67,6 +67,13 @@ Second \"item\" text"</string>
 
 Paket adının düzgün olduğunu və tətbiqin quraşdırıldığını yoxla"</string>
   <string name="morphe_external_downloader_empty_warning">Paket adı boş ola bilməz</string>
+  <string name="morphe_export_download_folder_dialog_title">İxrac qovluğu</string>
+  <string name="morphe_export_download_folder_change">Qovluğu dəyişdir</string>
+  <string name="morphe_export_download_folder_changed">İxrac qovluğu dəyişdirildi</string>
+  <string name="morphe_export_download_folder_reset">İxrac qovluğu sıfırlandı</string>
+  <string name="morphe_export_download_folder_missing">%s ixrac qovluğu tapılmadı</string>
+  <string name="morphe_export_download_flyout_title">Cihaza köçür</string>
+  <string name="morphe_export_download_canceled">İxrac ləğv edildi</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Fərdi</string>
   <string name="morphe_custom_branding_icon_title">Tətbiq simvolu</string>

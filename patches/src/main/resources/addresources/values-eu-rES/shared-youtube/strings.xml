@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Nabarmendu ezarpen berriak</string>
   <string name="morphe_settings_new_indicator_days_summary">Eguneratze batek gehitutako ezarpen eta aukeren ondoan puntua erakusten den egun kopurua</string>
   <string name="morphe_settings_new_indicator_days_off">Desaktibatu</string>
+  <string name="morphe_settings_new_indicator_clear_title">Markatu konfigurazio guztiak ikusitako gisa</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Kendu puntua konfigurazio eta aukera berri guztietatik</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Konfigurazio guztiak ikusitako gisa markatu?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Puntua konfigurazio eta aukera berri guztietatik kendu da. Etorkizuneko eguneratzeekin gehituzko konfigurazioak nabarmenduta egongo dira oraindik.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Berrabiarazi konfigurazioa amaitzeko</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Egiaztatu pakete-izena zuzena dela eta aplikazioa instalatuta dagoela"</string>
   <string name="morphe_external_downloader_empty_warning">Paketearen izena ezin da hutsik egon</string>
+  <string name="morphe_export_download_folder_dialog_title">Exportazio karpeta</string>
+  <string name="morphe_export_download_folder_change">Aldatu karpeta</string>
+  <string name="morphe_export_download_folder_changed">Exportazio karpeta aldatu da</string>
+  <string name="morphe_export_download_folder_reset">Exportazio karpeta berrezarri da</string>
+  <string name="morphe_export_download_folder_missing">Ezin izan da %s esportazio karpeta aurkitu</string>
+  <string name="morphe_export_download_flyout_title">Gailura esportatu</string>
+  <string name="morphe_export_download_canceled">Esportazioa bertan behera utzi da</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Pertsonalizatua</string>
   <string name="morphe_custom_branding_icon_title">Aplikazioaren ikonoa</string>

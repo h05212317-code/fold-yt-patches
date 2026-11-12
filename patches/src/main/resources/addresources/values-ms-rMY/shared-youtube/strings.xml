@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Serlahkan tetapan baharu</string>
   <string name="morphe_settings_new_indicator_days_summary">Bilangan hari titik dipaparkan bersebelahan tetapan dan pilihan yang ditambah oleh kemas kini</string>
   <string name="morphe_settings_new_indicator_days_off">Mati</string>
+  <string name="morphe_settings_new_indicator_clear_title">Tandakan semua tetapan sebagai dilihat</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Alih keluar titik daripada semua tetapan dan pilihan baharu</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Tandakan semua tetapan sebagai dilihat?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Titik dialih keluar daripada semua tetapan dan pilihan baharu. Tetapan yang ditambah oleh kemas kini masa hadapan masih diserlahkan.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Mulakan semula untuk menghabiskan penyediaan</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Sahkan nama pakej adalah betul dan aplikasi telah dipasang"</string>
   <string name="morphe_external_downloader_empty_warning">Nama pakej tidak boleh kosong</string>
+  <string name="morphe_export_download_folder_dialog_title">Folder eksport</string>
+  <string name="morphe_export_download_folder_change">Tukar folder</string>
+  <string name="morphe_export_download_folder_changed">Folder eksport telah ditukar</string>
+  <string name="morphe_export_download_folder_reset">Folder eksport ditetapkan semula</string>
+  <string name="morphe_export_download_folder_missing">Tidak dapat mencari folder eksport %s</string>
+  <string name="morphe_export_download_flyout_title">Eksport ke peranti</string>
+  <string name="morphe_export_download_canceled">Eksport dibatalkan</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Tersuai</string>
   <string name="morphe_custom_branding_icon_title">Ikon aplikasi</string>

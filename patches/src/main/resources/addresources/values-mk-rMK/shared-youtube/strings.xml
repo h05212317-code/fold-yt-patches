@@ -28,6 +28,10 @@ Second \"item\" text"</string>
   <string name="morphe_settings_new_indicator_days_title">Истакни ги новите поставки</string>
   <string name="morphe_settings_new_indicator_days_summary">Број на денови во кои точката се прикажува покрај поставките и опциите додадени со ажурирањето</string>
   <string name="morphe_settings_new_indicator_days_off">Исклучено</string>
+  <string name="morphe_settings_new_indicator_clear_title">Означи ги сите поставки како видени</string>
+  <string name="morphe_settings_new_indicator_clear_summary">Отстрани ја точката од сите нови поставки и опции</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_title">Означи ги сите поставки како видени?</string>
+  <string name="morphe_settings_new_indicator_clear_dialog_message">Точката е отстранета од сите нови поставки и опции. Поставките додадени со идни ажурирања сè уште ќе бидат истакнати.</string>
   <!-- misc.initialization.initializationPatch -->
   <string name="morphe_restart_first_run">Рестартирај за да завршиш со поставување</string>
   <!-- layout.branding.baseCustomBrandingPatch -->
@@ -67,6 +71,13 @@ Second \"item\" text"</string>
 
 Проверете дали името на пакетот е точно и дали апликацијата е инсталирана"</string>
   <string name="morphe_external_downloader_empty_warning">Името на пакетот не може да биде празно</string>
+  <string name="morphe_export_download_folder_dialog_title">Фолдер за извоз</string>
+  <string name="morphe_export_download_folder_change">Промени го фолдерот</string>
+  <string name="morphe_export_download_folder_changed">Фолдерот за извоз е променет</string>
+  <string name="morphe_export_download_folder_reset">Фолдерот за извоз е ресетиран</string>
+  <string name="morphe_export_download_folder_missing">Не може да се најде фолдерот за извоз %s</string>
+  <string name="morphe_export_download_flyout_title">Извоз кон уредот</string>
+  <string name="morphe_export_download_canceled">Извозот е откажан</string>
   <!-- Translations of this should be identical to morphe_custom_branding_icon_entry_7 -->
   <string name="morphe_custom_branding_name_entry_5">Прилагодено</string>
   <string name="morphe_custom_branding_icon_title">Икона на апликацијата</string>
