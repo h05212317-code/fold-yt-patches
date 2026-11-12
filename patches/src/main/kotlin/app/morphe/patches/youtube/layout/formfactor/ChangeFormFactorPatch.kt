@@ -17,7 +17,6 @@ import app.morphe.patcher.patch.patch
 import app.morphe.patcher.util.findFreeRegister
 import app.morphe.patcher.util.registersUsed
 import app.morphe.patches.shared.misc.settings.preference.ListPreference
-import app.morphe.util.insertLiteralOverride
 import app.morphe.patches.youtube.misc.contexthook.Endpoint
 import app.morphe.patches.youtube.misc.contexthook.addClientFormFactorHook
 import app.morphe.patches.youtube.misc.contexthook.clientContextHookPatch
@@ -76,14 +75,6 @@ val changeFormFactorPatch = patch(
             addClientFormFactorHook(
                 endpoint,
                 "$EXTENSION_CLASS->replaceBrokenFormFactor(I)I",
-            )
-        }
-
-        // Search results use the responsive feed of the home feed only behind a feature flag.
-        SearchResultsResponsiveFeedFeatureFlagFingerprint.let {
-            it.method.insertLiteralOverride(
-                it.instructionMatches.first().index,
-                "$EXTENSION_CLASS->useSearchResultsResponsiveFeed(Z)Z"
             )
         }
 

@@ -96,12 +96,12 @@ public class RestoreOldVideoActionBarPatch {
     }
 
     /**
-     * Tablets show a non-collapsed video action bar with every layout.
-     * If it does not work on a foldable device, please remove this.
+     * The tablet check is removed, as a foldable is detected as a tablet when the app starts unfolded,
+     * and the layout then stays unchanged in both states.
      */
-    private static final VideoActionBarLayout LAYOUT = Utils.isTablet()
+    private static final VideoActionBarLayout LAYOUT =
             // If 'Disable layout updates' is enabled, the layout is not changed.
-            || Settings.DISABLE_LAYOUT_UPDATES.get()
+            Settings.DISABLE_LAYOUT_UPDATES.get()
             ? VideoActionBarLayout.DEFAULT
             : Settings.VIDEO_ACTION_BAR_LAYOUT.get();
     private static final boolean FIX_VIDEO_ACTION_BAR = LAYOUT == VideoActionBarLayout.CLASSIC
