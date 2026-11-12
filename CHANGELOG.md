@@ -1,3 +1,9 @@
+## [2.4.0](https://github.com/h05212317-code/fold-yt-patches/compare/v2.3.1...v2.4.0) (2026-11-12)
+
+### ✨ New Features
+
+* **YouTube - Change form factor:** Use the responsive feed in search results with the Phone layout ([b1f9062](https://github.com/h05212317-code/fold-yt-patches/commit/b1f90623a8268176f1ec51bf52f4b885f6421467))
+
 ## [2.3.1](https://github.com/h05212317-code/fold-yt-patches/compare/v2.3.0...v2.3.1) (2026-11-12)
 
 ### 🐛 Bug Fixes
