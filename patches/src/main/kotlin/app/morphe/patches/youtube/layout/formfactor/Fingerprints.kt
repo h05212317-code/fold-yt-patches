@@ -43,51 +43,6 @@ internal fun getInnerTubeClientConfigFingerprint() = object : Fingerprint(
     )
 ) {}
 
-private object ResponsiveContainerPropertiesToStringFingerprint : Fingerprint(
-    name = "toString",
-    strings = listOf("ResponsiveContainerProperties{usingResponsiveContainerConfiguration=")
-)
-
-/**
- * Picks the responsive container properties by the width and height of a container.
- * Since 21.30 the home feed lays out its items by the size class of the picked properties.
- */
-internal fun getResponsiveContainerPropertiesFingerprint() = object : Fingerprint(
-    returnType = ResponsiveContainerPropertiesToStringFingerprint.originalClassDef.type,
-    parameters = listOf("I", "I")
-) {}
-
-/**
- * Computes the column count of a responsive container from the picked properties
- * (width / minColumnSizePx * columnMultiplier + columnAdder, clamped to min/max column count),
- * and stores it in a field. Must be matched against the class of [getResponsiveContainerPropertiesFingerprint].
- */
-internal object ResponsiveContainerColumnCountFingerprint : Fingerprint(
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
-    returnType = "V",
-    parameters = listOf("I", "I"),
-    filters = listOf(
-        fieldAccess(smali = "Landroid/util/DisplayMetrics;->widthPixels:I"),
-        methodCall(smali = "Ljava/lang/Math;->max(II)I"),
-        opcode(
-            Opcode.MOVE_RESULT,
-            location = MatchAfterImmediately(),
-        ),
-        methodCall(
-            smali = "Ljava/lang/Math;->min(II)I",
-            location = MatchAfterImmediately(),
-        ),
-        opcode(
-            Opcode.MOVE_RESULT,
-            location = MatchAfterImmediately(),
-        ),
-        opcode(
-            Opcode.IPUT,
-            location = MatchAfterImmediately(),
-        ),
-    )
-)
-
 internal object RepeatedItemSectionRendererFingerprint : Fingerprint(
     accessFlags = listOf(AccessFlags.PRIVATE, AccessFlags.FINAL),
     returnType = "V",

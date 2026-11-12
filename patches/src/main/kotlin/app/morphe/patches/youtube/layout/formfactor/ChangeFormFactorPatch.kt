@@ -16,9 +16,7 @@ import app.morphe.patcher.extensions.InstructionExtensions.getInstruction
 import app.morphe.patcher.patch.patch
 import app.morphe.patcher.util.findFreeRegister
 import app.morphe.patcher.util.registersUsed
-import app.morphe.patches.shared.misc.settings.preference.InputType
 import app.morphe.patches.shared.misc.settings.preference.ListPreference
-import app.morphe.patches.shared.misc.settings.preference.TextPreference
 import app.morphe.patches.youtube.misc.contexthook.Endpoint
 import app.morphe.patches.youtube.misc.contexthook.addClientFormFactorHook
 import app.morphe.patches.youtube.misc.contexthook.clientContextHookPatch
@@ -28,7 +26,6 @@ import app.morphe.patches.youtube.misc.navigation.navigationBarHookPatch
 import app.morphe.patches.youtube.misc.settings.PreferenceScreen
 import app.morphe.patches.youtube.misc.settings.settingsPatch
 import app.morphe.patches.youtube.shared.Constants.COMPATIBILITY_YOUTUBE
-import com.android.tools.smali.dexlib2.iface.instruction.ReferenceInstruction
 import com.android.tools.smali.dexlib2.iface.instruction.TwoRegisterInstruction
 
 private const val EXTENSION_CLASS =
@@ -51,8 +48,7 @@ val changeFormFactorPatch = patch(
 
     execute {
         PreferenceScreen.GENERAL.addPreferences(
-            ListPreference("morphe_change_form_factor"),
-            TextPreference("morphe_wide_screen_grid_columns", inputType = InputType.NUMBER),
+            ListPreference("morphe_change_form_factor")
         )
 
         getInnerTubeClientConfigFingerprint().let {
@@ -80,41 +76,6 @@ val changeFormFactorPatch = patch(
                 endpoint,
                 "$EXTENSION_CLASS->replaceBrokenFormFactor(I)I",
             )
-        }
-
-        getResponsiveContainerPropertiesFingerprint().let { propertiesFingerprint ->
-            // Must match before the width hook is added, as the hook changes the picker method.
-            val columnCountMatch = ResponsiveContainerColumnCountFingerprint.match(
-                propertiesFingerprint.classDef
-            )
-
-            propertiesFingerprint.method.addInstructions(
-                0,
-                """
-                    invoke-static/range { p1 .. p1 }, $EXTENSION_CLASS->getResponsiveContainerWidth(I)I
-                    move-result p1
-                """
-            )
-
-            // Restore a grid on wide screens with the Phone layout, using the real width (p1).
-            columnCountMatch.let {
-                it.method.apply {
-                    val iputIndex = it.instructionMatches.last().index
-                    val iput = getInstruction<TwoRegisterInstruction>(iputIndex)
-                    val valueRegister = iput.registerA
-                    val objectRegister = iput.registerB
-                    val fieldReference = (iput as ReferenceInstruction).reference
-
-                    addInstructions(
-                        iputIndex + 1,
-                        """
-                            invoke-static { v$valueRegister, p1 }, $EXTENSION_CLASS->getResponsiveColumnCount(II)I
-                            move-result v$valueRegister
-                            iput v$valueRegister, v$objectRegister, $fieldReference
-                        """
-                    )
-                }
-            }
         }
 
         RepeatedItemSectionRendererFingerprint.let {

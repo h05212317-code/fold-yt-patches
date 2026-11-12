@@ -10,15 +10,11 @@
 
 package app.morphe.extension.youtube.patches;
 
-import android.content.res.Resources;
-
 import androidx.annotation.Nullable;
 
 import java.util.List;
 import java.util.Optional;
 
-import app.morphe.extension.shared.Logger;
-import app.morphe.extension.shared.ui.Dim;
 import app.morphe.extension.youtube.settings.Settings;
 import app.morphe.extension.youtube.shared.NavigationBar;
 import app.morphe.extension.youtube.shared.PlayerType;
@@ -64,8 +60,6 @@ public class ChangeFormFactorPatch {
     @Nullable
     private static final Integer FORM_FACTOR_TYPE = FORM_FACTOR.formFactorType;
     private static final boolean IS_BROKEN_FORM_FACTOR = FORM_FACTOR.isBroken;
-
-    private static final int COMPACT_CONTAINER_MAX_WIDTH_DP = 599;
 
     /**
      * Injection point.
@@ -121,69 +115,6 @@ public class ChangeFormFactorPatch {
             // The form factor most similar to AUTOMOTIVE is LARGE, so it is replaced with LARGE.
             return Optional.ofNullable(FormFactor.LARGE.formFactorType).orElse(original);
         } else {
-            return original;
-        }
-    }
-
-    /**
-     * Injection point.
-     * <p>
-     * Responsive containers are classified by their width, and a tablet is wider than the
-     * compact class of a phone (under 600dp), so the home feed of the phone layout turns into a list.
-     */
-    public static int getResponsiveContainerWidth(int widthPx) {
-        if (FORM_FACTOR != FormFactor.SMALL) {
-            return widthPx;
-        }
-
-        return Math.min(widthPx, Dim.dp(COMPACT_CONTAINER_MAX_WIDTH_DP));
-    }
-
-    /**
-     * Containers narrower than this keep the original column count (folded / cover screen).
-     */
-    private static final int WIDE_GRID_MIN_WIDTH_DP = 480;
-    /**
-     * Containers at least this wide use 3 columns with the automatic setting.
-     */
-    private static final int WIDE_GRID_THREE_COLUMNS_MIN_WIDTH_DP = 840;
-    private static final int WIDE_GRID_MAX_COLUMNS = 6;
-
-    /**
-     * Injection point.
-     * <p>
-     * {@link #getResponsiveContainerWidth(int)} keeps the Phone layout in the compact size class,
-     * so the server sends phone items. That also makes the client lay the feed out with one column
-     * on a wide screen, such as an unfolded foldable. This restores a grid using the real width.
-     *
-     * @param original column count the app computed.
-     * @param widthPx  real (uncapped) width of the container.
-     */
-    public static int getResponsiveColumnCount(int original, int widthPx) {
-        try {
-            if (FORM_FACTOR != FormFactor.SMALL || widthPx <= 0) {
-                return original;
-            }
-
-            final int setting = Settings.WIDE_SCREEN_GRID_COLUMNS.get();
-            if (setting < 0 || setting == 1) {
-                return original; // Off.
-            }
-
-            final float density = Resources.getSystem().getDisplayMetrics().density;
-            final int widthDp = (int) (widthPx / density + 0.5f);
-            if (widthDp < WIDE_GRID_MIN_WIDTH_DP) {
-                return original;
-            }
-
-            int columns = setting > 0
-                    ? setting
-                    : (widthDp >= WIDE_GRID_THREE_COLUMNS_MIN_WIDTH_DP ? 3 : 2);
-            columns = Math.min(columns, WIDE_GRID_MAX_COLUMNS);
-
-            return Math.max(original, columns);
-        } catch (Exception ex) {
-            Logger.printException(() -> "getResponsiveColumnCount failure", ex);
             return original;
         }
     }
