@@ -1,3 +1,9 @@
+## [2.3.0](https://github.com/h05212317-code/fold-yt-patches/compare/v2.2.0...v2.3.0) (2026-11-12)
+
+### ✨ New Features
+
+* **YouTube - Change form factor:** Add "Wide screen grid columns" setting for the Phone device layout on foldables ([bde7034](https://github.com/h05212317-code/fold-yt-patches/commit/bde7034334788526fb62654cb14b010de2086700))
+
 ## [2.2.0](https://github.com/MorpheApp/morphe-patches/compare/v2.1.0...v2.2.0) (2026-11-10)
 
 ### ✨ New Features
